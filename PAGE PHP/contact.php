@@ -3,7 +3,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 // Include PHPMailer autoload file
-require_once 'C:\xampp\htdocs\Guillaume Le Quilleuc PROJET 1 SLAM\site web projet 1\vendor\autoload.php';
+require_once './vendor/autoload.php';
 
 // Check if the form is submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
