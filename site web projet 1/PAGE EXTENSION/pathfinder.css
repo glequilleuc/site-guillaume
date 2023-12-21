@@ -1,0 +1,22 @@
+body {
+    font-family: 'Pantry', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('path.gif');
+    text-align: center;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

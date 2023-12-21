@@ -1,0 +1,267 @@
+
+        @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    @keyframes rainbow {
+    0% { color: violet; }
+    16% { color: indigo; }
+    32% { color: blue; }
+    48% { color: green; }
+    64% { color: yellow; }
+    80% { color: orange; }
+    100% { color: red; }
+}
+
+.rainbow-text {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    animation: rainbow 7s infinite;
+}
+        html {
+            scroll-behavior: smooth;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 0.5em;
+        }
+
+        nav a {
+            color: #D95252;
+            margin: 0 15px;
+        }
+       }
+
+        section {
+            padding: 150px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #D95252;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        
+        header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+
+       .logo-container {
+       flex: 0 0 auto; 
+       }
+
+       .logo-left,
+       .logo-right {
+       max-width: 50px; 
+       margin: 0 10px; 
+       }
+       .logo-left,
+       .logo-right {
+       max-width: 150px;
+       margin: 0 10px;
+       }
+       body {
+       font-family: Pantry;
+       margin: 0;
+       padding: 0;
+       background-color: #f4f4f4;
+       text-align: center;
+       }
+
+
+       section {
+       margin: 0 auto;
+       max-width: 800px; 
+       }
+
+       header, nav, footer {
+       text-align: center; 
+       }
+       @font-face {
+       font-family: 'Pantry';
+       src: url("/dafont/Pantry.ttf");
+       }
+
+       #contact {
+    padding: 50px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.g-recaptcha {
+    margin-bottom: 20px; }
+
+button {
+    background-color: #D95252;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+body {
+    font-family: 'Pantry', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('fondsite2.jpg');
+    text-align: center;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+section {
+    padding: 150px;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: #333;
+    color: #D95252;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 999; 
+}
+div#acceuil {
+    background-color: #A5A5A5;
+    display: block;
+    color: #000;
+    text-align: center;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 500px;
+    margin-bottom: 300px;
+}
+div#propos {
+    background-color: #A5A5A5;
+    display: block;
+    color: #000;
+    text-align: center;
+    width: 40%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 300px;
+}
+div#competences {
+    background-color: #A5A5A5;
+    display: block;
+    color: #000;
+    text-align: center;
+    width: 40%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 300px;
+}
+div#experience {
+    background-color: #A5A5A5;
+    display: block;
+    color: #000;
+    text-align: center;
+    width: 40%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 300px;
+}
+div#formation {
+    background-color: #A5A5A5;
+    display: block;
+    color: #000;
+    text-align: center;
+    width: 40%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 300px;
+}
+div#contact {
+    background-color: #A5A5A5;
+    display: block;
+    color: #000;
+    text-align: center;
+    width: 40%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 300px;
+}
+.img-hover-zoom {
+    transition: transform 0.3s ease-in-out;
+}
+
+.img-hover-zoom:hover {
+    transform: scale(1.1); 
+}
+nav a {
+    color: #D95252;
+    margin: 0 15px;
+    padding: 5px 10px;
+    border: 1px solid #D95252; 
+    border-radius: 5px; 
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+    font-size: 1.6em;
+    transition: font-size 0.3s, color 0.3s;
+    text-decoration: underline;
+    background-image: none;
+    position: relative;
+    color: #333; 
+    background-color: #D95252;
+}
+#genre .gender-options {
+    text-align: center;
+}
+
+#genre label {
+    display: inline-block;
+    margin: 0 5px;
