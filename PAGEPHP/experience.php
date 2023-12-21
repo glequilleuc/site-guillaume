@@ -1,7 +1,7 @@
 <?php
 
 require_once("yaml/yaml.php");
-$data=yaml_parse_file('PAGE YAML/experience.yaml');
+$data=yaml_parse_file('PAGEYAML/experience.yaml');
 //print_array($data);
 
 echo "<p>".$data["experiences"]."</p>";

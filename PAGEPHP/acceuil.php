@@ -1,7 +1,7 @@
 <?php
 
 require_once("yaml/yaml.php");
-$data=yaml_parse_file('PAGE YAML/aceuil.yaml');
+$data=yaml_parse_file('PAGEYAML/aceuil.yaml');
 //print_array($data);
 
 echo "<p>".$data["prenom"]." ".$data["nom"]."</p>";

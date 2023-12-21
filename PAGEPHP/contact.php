@@ -2,10 +2,10 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-// Include PHPMailer autoload file
+
 require_once './vendor/autoload.php';
 
-// Check if the form is submitted
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Get form data
     $gender = $_POST['gender'];
@@ -14,11 +14,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = $_POST['message'];
     $email = $_POST['email'];
 
-    // PHPMailer initialization
+   
     $mail = new PHPMailer(true);
 
     try {
-        // Server settings
+       
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
@@ -28,11 +28,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Port = 465;
         $mail->SMTPSecure = 'ssl';
 
-        // Sender and recipient settings
+       
         $mail->setFrom('guillaume.lequilleuc.test@gmail.com', 'guillaume le quilleuc');
         $mail->addAddress('guillaume.lequilleuc.test@gmail.com', 'guillaume le quilleuc');
 
-        // Content
+       
         $mail->isHTML(true);
         $mail->Subject = 'Formulaire reçus';
         $mail->Body = "Gender: $gender<br>First Name: $nom<br>Last Name: $prenom<br>message: $message<br>email: $email";

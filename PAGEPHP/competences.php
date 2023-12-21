@@ -1,7 +1,7 @@
 <?php
 
 require_once("yaml/yaml.php");
-$data=yaml_parse_file('PAGE YAML/competences.yaml');
+$data=yaml_parse_file('PAGEYAML/competences.yaml');
 //print_array($data);
 
 echo "<p>".$data["domaines"]."</p>";

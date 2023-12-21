@@ -31,19 +31,19 @@
     <div id="acceuil">
     <section id="accueil">
         <h2>Accueil</h2>
-        <?php include("PAGE PHP/acceuil.php"); ?>
+        <?php include("PAGEPHP/acceuil.php"); ?>
     </section>
     </div>
     <div id="propos">
     <section id="a propos">
         <h2>À propos</h2>
-        <?php include("PAGE PHP/a propos.php"); ?>
+        <?php include("PAGEPHP/a propos.php"); ?>
     </section>
     </div>
     <div id="competences">
     <section id="competences">
         <h2>Compétences</h2>
-        <?php include("PAGE PHP/competences.php"); ?>
+        <?php include("PAGEPHP/competences.php"); ?>
     </section>
     </div>
     <div id="experience">
@@ -51,20 +51,20 @@
         <h2>experiences</h2>
         voici mon CV en PDF
         et les experiences que j'ai faite
-       <?php include("PAGE PHP/experience.php"); ?>
+       <?php include("PAGEPHP/experience.php"); ?>
     </section>
     </div>
     <div id="formation">
     <section id="formation">
         <h2>formation</h2>
         <h3>les formations que j'ai faite durant ma periode scolaire</h3>
-       <?php include("PAGE PHP/formation.php"); ?>
+       <?php include("PAGEPHP/formation.php"); ?>
     </section>
     </div>
     <div id="contact">
     <section id="contact">
     <h2>Contact</h2>
-   <?php include("PAGE PHP/contact.php"); ?>
+   <?php include("PAGEPHP/contact.php"); ?>
     <form method="post">
         <select id="gender" name="gender" required>
             <option value="male">Homme</option>
