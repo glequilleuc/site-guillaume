@@ -1,7 +1,7 @@
 <?php
 
 require_once("yaml/yaml.php");
-$data=yaml_parse_file('PAGEYAML/a propos.yaml');
+$data=yaml_parse_file('PAGEYAML/apropos.yaml');
 
 echo "<p>".$data["une accroche"]." ".$data["un paragraphe"]."</p>";
 echo '<a href="PAGE EXTENSION/pathfinder.php">';

@@ -22,7 +22,7 @@
     </header>
          <nav>
         <a href="#accueil">Accueil</a>
-        <a href="#a propos">À propos</a>
+        <a href="#apropos">À propos</a>
         <a href="#competences">Compétences</a>
         <a href="#experience">Expérience</a>
         <a href="#formation">Formation</a>
@@ -35,9 +35,9 @@
     </section>
     </div>
     <div id="propos">
-    <section id="a propos">
+    <section id="apropos">
         <h2>À propos</h2>
-        <?php include("PAGEPHP/a propos.php"); ?>
+        <?php include("PAGEPHP/apropos.php"); ?>
     </section>
     </div>
     <div id="competences">
